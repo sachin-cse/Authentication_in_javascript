@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Log in</title>
+<link rel="stylesheet" href="signin.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<script src="signup.js"></script>
+</head>
+<body>
+    <div class="center">
+        <h1>Signin</h1>
+ <form name="myform">
+     <div class="txt_field">
+     <input id="user1" type="text" max="15" required>
+     <span></span>
+     <label>User name</label>
+    </div>
+    <div class="txt_field">
+    <input id ="pass2" type="password" required>
+    <span></span>
+    <label>Password</label>
+</div>
+<div id="remember">
+    <input type="checkbox" value="lsRememberMe" id="rememberMe"
+           style="display: inline-block;">
+    <label>Remember me</label>
+</div>
+<button type="submit" onclick="check()">Login</button>
+</form>
+</div>
+</body>
+
+</html>
